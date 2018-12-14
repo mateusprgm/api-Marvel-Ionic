@@ -1,11 +1,20 @@
 <ion-header>
   <ion-navbar>
     <ion-title>
-      About
+      {{gHeros.title}}
     </ion-title>
   </ion-navbar>
+  
 </ion-header>
-
+<!-- *ngFor="let list of gHeros.characters.collectionURI"" -->
 <ion-content padding>
-
+    
+    <ion-list >
+        <img  src="{{gHers.images.path}}.{{gHers.images.extension}}" *ngFor="let gHers of gHeros?.images.path">
+        <img src="{{list.thumbnail.path}}.{{list.thumbnail.extension}}" *ngFor="let list of lista?.results">
+    </ion-list>
+     <!-- <p ion-item>  -->
+     {{descricao}}
+    <!-- </p> -->
+  <!-- </ion-list> -->
 </ion-content>

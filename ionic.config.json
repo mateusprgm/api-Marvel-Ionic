@@ -1,5 +1,7 @@
 {
   "name": "AppPro",
-  "integrations": {},
+  "integrations": {
+    "cordova": {}
+  },
   "type": "ionic-angular"
 }
